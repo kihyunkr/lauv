@@ -1,0 +1,306 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#moez{
+    width: 40%;
+    height:100%;
+    float: right;
+    cursor: not-allowed;
+   
+}
+
+body{
+    
+    background: linear-gradient(to right, #ff00cc, #333399);
+    font-family: sans-serif;
+}
+.about{
+    margin-top: 70px;
+    margin-left: 15px;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Yellowtail', cursive;
+}
+.profile-info{
+    width: 60%;
+    height:100vh;
+    float:left;
+    padding :0 30px;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+.profile-info::-webkit-scrollbar
+{
+    width: 0px;
+}
+h1{
+    font-family: 'Pangolin', cursive;
+    color: black;
+    text-shadow: 1px 1px white;
+    animation-name: tracking-in-expand-fwd-top;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.profile-info h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#exchange
+{
+    width: 120px;
+    height: 120px;
+    float: right;
+    border-radius: 50%;
+    margin-top: 15px;
+    cursor: not-allowed;
+    
+    
+  
+}
+.social-media img
+{
+height: 30px;
+margin-right: 15px;
+}
+.social-media{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.profile-info h2
+{
+    margin-top: 50px;
+    margin-bottom:15px;
+}
+.expertise img
+{
+    height: 5%;
+    margin : 5px;
+}
+.expertise
+{
+    display: inline-block;
+    width: 28%;
+    
+    padding: 30px 10px;
+    margin : 2%;
+     text-align: center;
+
+background: rgb(246, 250, 1);
+border-radius: 8px;
+box-shadow: 4px 5px black;
+}
+.expertise small
+{
+    padding-top: 10px;
+    display: block;
+}
+.projects img
+{
+    width: 100%;
+    
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.boxplace
+{
+    margin-top: 22px;
+}
+.input-group input
+{
+    width: 45%;
+    border: 0;
+    outline: none ;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+    background: #fff;
+}
+.text-area textarea
+{
+    width:95%;
+    border: 0;
+    outline: none ;
+    padding: 10px;
+    margin: 2%;
+    background: #fff;
+}
+.submitkr
+{
+    
+    border: 0;
+    outline: none ;
+    padding: 10px 20px;
+    margin: 2%;
+    background: #2ab0ff;
+    cursor: pointer;
+    color: #fff;
+  
+}
+.projects
+{
+    display: inline-block;
+    width: 30%;
+    padding: 30px 10px;
+    
+    margin : 1%;
+     text-align: center;
+
+background: rgb(246, 250, 1);
+border-radius: 8px;
+}
+.desc
+{
+    text-align: center;
+    padding: 15px;
+}
+
+.contact img
+{
+width: 30px;
+height: 5%;
+margin-left: 5px;
+
+}
+.contact span
+{
+    margin: 5%;
+}
+.contact
+{
+    margin: 5% 0 5% 15%;
+    width: 65%;
+}
+
+.copyright
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: oblique;
+    font-size: 17px;
+}
+
+#change:hover
+{
+    transform: scale(1.3,1.3);
+    transition: .3s ;
+}
+h3
+{
+    margin-left: 20px;
+}
+h2{
+    font-family: 'Pangolin', cursive; 
+}
+.Shiyar
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#professor
+{
+    color: yellow;
+    font-style: italic;
+}
+#transform:hover
+{
+    transform: scale(1.5,1.5);
+    transition: .3s ;
+}
+@media only screen and (max-width: 900px)
+{
+    .profile-info
+    {
+        width: 100%;
+        overflow: inherit;
+    }
+    #moez
+    {
+        display: none;
+    }
+    .expertise
+    {
+        width:95%;
+        margin-bottom: 10%;
+    }
+    .expertise img
+    {
+        height:8%;
+        margin: 10px 0;
+    }
+    .projects img
+    {
+        width: 47%;
+    }
+    span
+    {
+        display: block;
+    }
+}
+@media only screen and (max-width:1276px)
+{
+    .expertise
+    {
+        width: 94%;
+    }
+}
+@media only screen and (max-width:1027px)
+{
+    .projects
+    {
+        width: 25%;
+        margin:17px;
+    }
+}
+@media only screen and (max-width:900px)
+{
+    .projects
+    {
+        width:28%;
+    }
+}
+@media only screen and (max-width:752px)
+{
+    .projects
+    {
+        width: 26%;
+    }
+}
+@media only screen and (max-width:727px)
+{
+    .projects{
+        width: 27%;
+    }
+}
+@media only screen and (max-width:678px)
+{
+    .projects{
+        width: 95%;
+    }
+}
+@media only screen and (max-width:378px)
+{
+    #exchange{
+        width:70px;
+        height:70px;
+    }
+    }
+@media only screen and (max-width:378px)
+{
+    #exchange{
+        width: 40px;
+        height:40px;
+    }
+}
+
+
+
+
+
+
+
+@-webkit-keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px) translateY(-500px);transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}@keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px) translateY(-500px);transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}
